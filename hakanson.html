@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@hakanson</title>
+    <script src="snap.svg.js"></script>
+    <script src="snap.deck.js"></script>
+</head>
+<body style="margin: 0;">
+<script>
+var s = Snap("460", "640").attr({ "viewBox": "0 0 63.5 88", style: "display: block;", "font-family":"sans-serif" });
+//var deck = SnapDeck.deck(1);
+//var s = deck.cards[0];
+var cx = 31.75, cy = 44, cr = 55;
+
+SnapDeck.pinwheel(s, cx, cy, cr, 120, "firebrick", "maroon");
+
+s.rect(3, 3, 57.5, 75, 0.5, 0.5).attr({ "fill": "red" });
+s.rect(4, 4, 55.5, 73, 0, 0).attr({ "stroke-width": 1, "stroke": "yellow", "fill": "none" });
+s.rect(5, 5, 53.5, 71).attr({ "fill": "black" });
+
+
+s.rect(56, 1.25, 6, 5.5, 0.5, 0.5).attr({ "fill": "red" });
+s.rect(56.5, 2, 5, 4.25, 0.25, 0.25).attr({ "fill": "black", "opacity": 0.85 });
+s.rect(56.5, 1.75, 4.75, 4.25, 0.25, 0.25).attr({ "fill": "yellow", "opacity": 0.9 });
+
+s.text(59, 5, "#1").attr({ "text-anchor": "middle", "font-size": 3.5, "fill": "black", "font-weight": "bold" });
+
+s.rect(11.5, 7.5, 40, 40, 0.5, 0.5).attr({ "fill": "white" });
+s.image("images/hakanson.png", 12, 8, 39, 39);
+   
+var bioAttr = { "text-anchor": "middle", "font-size": 2.75, "fill": "white" };
+s.text(cx, 52, "Software Architect at Thomson Reuters.").attr(bioAttr);
+s.text(cx, 56, "WestlawNext. Web Platform. JavaScript.").attr(bioAttr);
+s.text(cx, 60, "Agile Software Development.").attr(bioAttr);
+s.text(cx, 64, "Information Security. Speaker.").attr(bioAttr);
+s.text(cx, 68, "Creator @LicPlateZone").attr(bioAttr);
+s.text(56, 74, "http://about.me/kevin.hakanson").attr({ "font-size": 2.5, "text-anchor": "end", "fill": "lightskyblue" });
+
+
+// https://about.twitter.com/press/brand-assets
+s.image("images/Twitter_logo_blue.png", 6, 71, 14, 14);
+
+s.text(60, 82, "Kevin Hakanson").attr({ "text-anchor": "end", "font-size": 4.5, "fill": "white", "font-weight": "bold" });
+s.text(60, 86, "@hakanson").attr({ "text-anchor": "end", "font-size": 3.5, "fill": "white" });
+</script>
+</body>
+</html>

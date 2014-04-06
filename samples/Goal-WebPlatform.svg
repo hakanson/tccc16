@@ -1,0 +1,41 @@
+﻿<svg id="SnapDeckCard1" width="460" height="640" viewBox="0 0 63.5 88" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" font-family="sans-serif">
+
+  <defs>
+    <rect x="3" y="3" width="10" height="82" id="sidebar" />
+    <rect x="15" y="33" width="45.5" height="2" id="hr" fill="black" />
+
+    <symbol id="checkbox" stroke="#000000" style="">
+      <rect x="6" y="6" width="6" height="6" fill="#000000" style="stroke-width: 0px;"></rect>
+      <rect x="5" y="5" width="6" height="6" fill="#d43c82" style="stroke-width: 0.5px;"></rect>
+    </symbol>
+
+    <g id="goal">
+      <use xlink:href="#sidebar" fill="#d43c82" style=""></use>
+      <use xlink:href="#checkbox"></use>
+      <text x="14.5" y="11" style="font-size: 9px; letter-spacing: -0.5px; font-weight: bold;">GOAL</text>
+      <use xlink:href="#hr" y="4"></use>
+      <g line-spacing="0" paragraph-spacing="0" style="text-anchor: start; font-size: 3.5px; letter-spacing: -0.05px;">
+        <text x="15" y="18">To play this card, place it face</text>
+        <text x="15" y="22.375">up in the center of the table.</text>
+        <text x="15" y="26.75">Discard previous Goal, if any.</text>
+      </g>
+    </g>
+  </defs>
+
+    <use xlink:href="#goal"></use>
+    <g line-spacing="0" paragraph-spacing="0" style="text-anchor: start; font-size: 5.5px; letter-spacing: -0.05px; font-weight: bold;">
+      <text x="15" y="35">Web Platform</text>
+    </g>
+
+    <text x="10" y="15" transform="matrix(0,-1,1,0,-5,25)" style="font-size: 6px; text-anchor: end; font-weight: bold;">WEB PLATFORM</text>
+    <g line-spacing="0" paragraph-spacing="0" style="text-anchor: start; font-size: 3.5px; letter-spacing: -0.05px;">
+      <text x="15" y="43">The player who has any 2 of</text>
+      <text x="15" y="47.375">the following Keepers on the</text>
+      <text x="15" y="51.75">table wins: HTML5, CSS3,</text>
+      <text x="15" y="56.125">JavaScript</text>
+    </g>
+    <image xlink:href="images/HTML5_Logo_512.png" preserveAspectRatio="meet" x="15" y="59" width="15" height="15"></image>
+    <image xlink:href="images/JavaScript-logo.png" preserveAspectRatio="meet" x="30" y="66" width="15" height="15"></image>
+    <image xlink:href="images/css3logo.png" preserveAspectRatio="meet" x="45" y="59" width="15" height="15"></image>
+
+</svg>

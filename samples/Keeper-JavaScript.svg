@@ -1,0 +1,30 @@
+﻿<svg id="SnapDeckCard1" width="460" height="640" viewBox="0 0 63.5 88" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" font-family="sans-serif">
+  
+  <defs>
+    <rect x="3" y="3" width="10" height="82" id="sidebar" />
+    <rect x="15" y="33" width="45.5" height="2" id="hr" fill="black" />
+
+    <symbol id="check" stroke="black" stroke-width="1">
+      <polyline points="5,8,6,11,11,5" fill="none" stroke-linejoin="round" stroke-linecap="round" />
+    </symbol>
+
+    <!-- ... -->
+    <g id="keeper">
+      <use xlink:href="#sidebar" fill="#b3dd1a" />
+      <use xlink:href="#check" />
+      <text text-anchor="start" x="14.5" y="11" font-size="9" letter-spacing="-.5" font-weight="bold">KEEPER</text>
+     
+      <use xlink:href="#hr" />
+      <g line-spacing="0" paragraph-spacing="0" text-anchor="start" font-size="3.5" letter-spacing="-0.05">
+        <text x="15" y="18">To play this card, place it face</text>
+        <text x="15" y="22.375">up on the table in front of you.</text>
+      </g>
+    </g>
+  </defs>
+  <use xlink:href="#keeper"></use>
+  <g line-spacing="0" paragraph-spacing="0" text-anchor="start" font-size="5.5" letter-spacing="-0.05" font-weight="bold">
+    <text x="15" y="31">JavaScript</text>
+  </g>
+  <text x="10" y="15" transform="matrix(0,-1,1,0,-5,25)" font-size="6" text-anchor="end" font-weight="bold">JAVASCRIPT</text>
+  <image xlink:href="images/JavaScript-logo.png" preserveAspectRatio="meet" x="22" y="48" width="30" height="30" />
+</svg>
